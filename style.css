@@ -1,0 +1,76 @@
+/* ====== Global Reset ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ====== Body ====== */
+  body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  /* ====== Heading ====== */
+  h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  /* ====== Links ====== */
+  a {
+    color: #90cdf4;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ====== Container ====== */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* ====== Buttons ====== */
+  button {
+    background-color: #1f2937;
+    color: #f0f0f0;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background-color: #374151;
+  }
+  
+  /* ====== Image Styling ====== */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  
+  /* ====== Card Style (optional) ====== */
+  .card {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin-bottom: 2rem;
+  }
+  
+  /* ====== Footer ====== */
+  footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
